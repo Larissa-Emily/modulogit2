@@ -1,0 +1,121 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: center no-repeat fixed url(./image/banner.jpg);
+    align-items: center;
+    text-align: center;
+}
+
+h1, a{
+    text-transform: uppercase;
+}
+
+.header h2{
+    color: #af387c;
+    font-size: 2em;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+
+.header h2::after{
+    content: "";
+    width: 400px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #af387c;
+    display: block;
+}
+
+
+.header h3{
+    margin: 20px;
+    font-size: 1.2em;
+
+}
+
+.banner .text-main{
+    position: relative;
+    top: 30%;
+    color: #fff;
+}
+
+.banner .text-main h1{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.banner .text-main p{
+    padding: 30px 10px 30px 10px;
+    margin: 0 auto;
+    color: #cccccc;
+    line-height: 30px;
+}
+
+.banner .text-main a{
+    line-height: 200px;
+    padding: 10px;
+    font-size: 1.8em;
+    color:inherit;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner .text-main a:hover{
+    border: 2px solid #ccc;
+}
+
+.cards{
+    margin-top: 50px;
+}
+
+ .card-container{
+     margin: 80px 0 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container .box{
+    width: 350px;
+    padding-bottom: 20px;
+    margin: 20px;
+    height: auto;
+    box-shadow: 12px 11px 20px #ccc;
+    border-radius: 5%;
+}
+
+.card-container .box img{
+    width: 100%;
+} 
+
+.card-container .box h3{
+    color: #fb866a;
+}
+
+.card-container .box p{
+    color: rgba(119, 118, 118, 0.74);
+    text-align: center;
+    padding: 12px;
+}
+
+.container-text{
+    display: flex;
+    padding: 20px;
+}
+
+.container-text button{
+    width: 200px;
+    padding: 10px;
+    background-color: #fb876ab6;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+.text-1, .text-2{
+    margin: 0 auto;
+    padding: 20px;
+    width: 30%;
+    line-height: 25px;
+    text-align: left;
+}

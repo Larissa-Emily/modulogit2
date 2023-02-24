@@ -1,0 +1,12 @@
+@media only screen and (max-width: 980px){
+    .card-container{
+        flex-wrap: wrap;
+    }
+    .container-text{
+        display: block;
+    }
+    .text-1, .text-2{
+        width: 70%;
+    }
+
+}

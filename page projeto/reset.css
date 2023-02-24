@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+div, section{
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+}
